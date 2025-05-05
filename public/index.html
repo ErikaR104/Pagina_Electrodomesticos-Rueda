@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Electrodomésticos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Electrodomesticos Rueda S.A.S</h1>
+            <input type="text" id="buscador" placeholder="Buscar productos...">
+            <select id="filtro-categoria">
+            <option value="todos">Todas las categorías</option>
+            <option value="neveras">Neveras</option>
+            <option value="lavadoras">Lavadoras</option>
+            <option value="Estufas">Estufas</option>
+        </div>
+        </select>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="registro.html">Registro</a>
+            <a href="checkout.html">Finalizar compra</a>
+        </nav>
+    </header>
+
+    <main id="productos">
+        <!-- Productos se insertan con JavaScript -->
+    </main>
+
+    <section id="carrito">
+        <h2><i class="fas fa-shopping-cart"></i> Carrito</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total">0</span></p>
+        <a href="checkout.html"><button>Finalizar compra</button></a>
+        <br>
+        <a href="registro.html">¿No tienes cuenta? Regístrate aquí</a>
+    </section>
+    <br>
+    
+
+    <footer>
+        <h3>
+            <div class="container">
+            Celular: 3112215927
+            <br>
+            @ErikaRodriguez2025
+        </div>
+    </h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

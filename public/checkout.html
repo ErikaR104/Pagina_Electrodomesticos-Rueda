@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>.form-grid input {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      width: 100%;
+      max-width: 400px;
+      padding: 10px;
+      margin: 10px 0;
+      box-sizing: border-box;
+      font-size: 1rem;
+    }
+      </style>
+
+  </head>
+
+<body>
+    
+    <header>
+        <div class="container">
+         <h1>Finalizar Compra</h1>
+        <nav>
+            <a href="index.html">Volver a tienda</a>
+            <a href="registro.html">Registrarse</a>
+          </nav>
+        </div>
+    </header>
+    
+    <main>
+        <form action="/checkout" method="POST">
+            <div class="form-grid">
+            <input type="text" name="nombre" placeholder="Nombre completo" required>
+            <input type="text" name="documento_nit" placeholder="Documento o NIT" required>
+           
+            <input type="cel" name="celular" placeholder="celular" required>
+            <input type="text" name="direccion" placeholder="Dirección de envío" required>
+                        
+            <input type="number" name="numero_tarjeta" placeholder="Número de tarjeta" required>
+            </div>
+
+            <div class="form-boton">
+            <button type="submit"><i class="fas fa-shopping-cart"></i>   Pagar</button>
+            </div>
+        </form>
+    </main>
+
+            <footer>
+              <h3>
+                <div class="container">
+                Celular: 3112215927
+                <br>
+                @ErikaRodriguez2025
+            </div>
+        </h3>
+            </footer>
+</body>
+
+</html>

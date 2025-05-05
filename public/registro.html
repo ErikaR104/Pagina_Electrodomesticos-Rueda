@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Registro</title>
+  <link rel="stylesheet" href="styles.css">
+
+   <style>.form-grid input {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+    </style>
+
+</head>
+
+
+<body>
+  <header>
+    <div class="container">
+    <h1>Crear Cuenta</h1>
+    <nav>
+      <a href="index.html">Volver a productos</a>
+      <a href="checkout.html">Ir al carrito</a>
+    </nav>
+    </div>
+  </header>
+  <main>
+    <form action="/registro" method="POST">
+        <div class="form-grid">
+          <input type="text"  name="nombre" placeholder="Nombre" required>
+          <input type="text"  name="apellido" placeholder="Apellido" required>
+      
+          <input type="email" name="correo" placeholder="Correo electrónico" required>
+          <input type="cel"   name="celular" placeholder="Celular" required>
+      
+          <input type="password" name="contraseña" placeholder="Contraseña" required>
+          <input type="password" placeholder="Confirmar contraseña" required>
+        </div>
+      
+        <div class="form-boton">
+        <button type="submit">Registrarse</button>
+        </div>
+      </form>
+  </main>
+
+        <footer>
+          <div class="container">
+            <h3>           
+            Celular: 3112215927
+            <br>
+            @ErikaRodriguez2025
+            </h3>
+        </div>
+      </footer>
+
+</body>
+</html>
