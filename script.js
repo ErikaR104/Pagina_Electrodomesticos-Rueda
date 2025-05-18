@@ -17,7 +17,7 @@ const productos = [
     nombre: "Nevera Haceb 240L",
     precio: 2200000,
     categoria: "neveras",
-    imagen: "img/nevera-haceb.png",
+    imagen: "img/Nevera-Haceb.jpg",
     link: "detalle/nevera-haceb.html"
   },
   {
